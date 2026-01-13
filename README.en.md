@@ -93,7 +93,10 @@ If your TS0601 TRV is not supported, you need to add its identifier.
    manufacturerName: _TZE200_xxxxxxxx
 
 2. In TS0601_BY_RK.js add a new fingerprint entry:
-   { modelID: 'TS0601', manufacturerName: '_TZE200_NEWID' }
+   ``` 
+   { modelID: 'TS0601', manufacturerName: '_TZE200_NOWYID' }
+    ```
+<img width="1371" height="1282" alt="add new trv" src="https://github.com/user-attachments/assets/f1e24681-78da-4464-8183-a78c7d2229dd" />
 
 3. Restart Zigbee2MQTT
 
