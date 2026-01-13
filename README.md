@@ -1,3 +1,6 @@
+[🇬🇧 English version](README.en.md)
+
+
 # TS0601_BY_RK.js
 Minimalistyczny konwerter Zigbee2MQTT dla głowic Tuya TS0601 (ON / OFF)
 
