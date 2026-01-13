@@ -72,8 +72,11 @@ This is not a bug or missing feature — it is a deliberate limitation to ensure
    If the external_converters directory does not exist, create it.
 
 2. In /zigbee2mqtt/configuration.yaml add:
+      ```
    external_converters:
      - TS0601_BY_RK.js
+   ```
+![conf](https://github.com/user-attachments/assets/a7057153-2b3a-4db5-b2d1-ac4f3d0719c9)
 
 3. Restart Zigbee2MQTT
 
