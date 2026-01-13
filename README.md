@@ -66,13 +66,16 @@ Nie jest to błąd ani brak funkcji — to celowe ograniczenie, mające na celu 
 
 ## Jak dodać konwerter do Zigbee2MQTT
 
-1. Skopiuj plik TS0601_BY_RK.js do katalogu Zigbee2MQTT, np.:
+1. Skopiuj plik TS0601_BY_RK.js do katalogu Zigbee2MQTT, .:
    /zigbee2mqtt/external_converters/TS0601_BY_RK.js
    jesli katalog external_converters nie istnieje dodaj go
 
 2. W pliku /zigbee2mqtt/configuration.yaml dodaj:
+   ```
    external_converters:
      - TS0601_BY_RK.js
+   ```
+![conf](https://github.com/user-attachments/assets/a7057153-2b3a-4db5-b2d1-ac4f3d0719c9)
 
 3. Zrestartuj Zigbee2MQTT
 
@@ -89,9 +92,12 @@ Jeśli Twoja głowica TS0601 nie jest obsługiwana, należy dodać jej identyfik
    manufacturerName: _TZE200_xxxxxxxx
 
 2. W pliku TS0601_BY_RK.js dodaj nowy fingerprint do listy:
+   ``` 
    { modelID: 'TS0601', manufacturerName: '_TZE200_NOWYID' }
+    ```
+<img width="1371" height="1282" alt="add new trv" src="https://github.com/user-attachments/assets/f1e24681-78da-4464-8183-a78c7d2229dd" />
 
-3. Zrestartuj Zigbee2MQTT
+4. Zrestartuj Zigbee2MQTT
 
 ## Dla kogo ten konwerter jest przeznaczony
 
