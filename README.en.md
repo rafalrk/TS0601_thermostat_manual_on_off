@@ -1,3 +1,6 @@
+[🇵🇱 Polish version](README.md)
+
+
 # TS0601_BY_RK.js
 Minimalist Zigbee2MQTT converter for Tuya TS0601 TRV heads (ON / OFF)
 
