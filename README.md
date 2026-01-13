@@ -67,9 +67,10 @@ Nie jest to błąd ani brak funkcji — to celowe ograniczenie, mające na celu 
 ## Jak dodać konwerter do Zigbee2MQTT
 
 1. Skopiuj plik TS0601_BY_RK.js do katalogu Zigbee2MQTT, np.:
-   /opt/zigbee2mqtt/TS0601_BY_RK.js
+   /zigbee2mqtt/external_converters/TS0601_BY_RK.js
+   jesli katalog external_converters nie istnieje dodaj go
 
-2. W pliku configuration.yaml dodaj:
+2. W pliku /zigbee2mqtt/configuration.yaml dodaj:
    external_converters:
      - TS0601_BY_RK.js
 
