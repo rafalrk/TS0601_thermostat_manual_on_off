@@ -1,0 +1,2 @@
+# TS0601_thermostat_manual_on_off
+TS0601_thermostat_manual_on_off
